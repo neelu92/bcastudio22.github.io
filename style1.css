@@ -1,0 +1,66 @@
+body {
+    margin:0;
+    font-family: cursive ;
+}
+
+div  {
+    width: 100%;
+    background-color: #bbb;
+    overflow: auto;
+}
+
+div a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+div  a:hover {
+    background-color: #000;
+}
+
+div .active {
+    background-color: #04AA6D;
+}
+/*page ul li a tag css*/
+.sem ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+.sem li{
+
+    float: left;
+    padding-right: 8%;
+
+}
+.sem ul li a{
+    display: inline;
+    color: darkturquoise;
+    text-decoration: none;
+}
+.sem h1{
+    color: darkturquoise;
+    font-style: italic;
+    padding-left: 30%;
+}
+.tablestyle{
+    
+    text-align: center; 
+    border-style: solid;
+    color: #04AA6D;
+    background-color: #939393;
+    padding-left: 5%;
+    text-decoration: none;
+    
+}
+.links a{
+   text-decoration: none;
+   font-size: 50px;
+   color: #04AA6D;
+}
